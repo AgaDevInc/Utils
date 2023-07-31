@@ -1,0 +1,12 @@
+{
+  "main": "main.ts",
+	"versions": {
+		"1.0.0": {
+			"main.ts": "",
+      "tokenize.fn.ts": "",
+      "constants.ts": "",
+      "validation.ts": "",
+      "util.ts": ""
+		}
+	}
+}
