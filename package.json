@@ -1,0 +1,21 @@
+{
+  "name": "@agadev/utils",
+  "version": "1.0.0",
+  "description": "Utils for your code",
+  "main": "lib/main.js",
+  "module": "lib/main.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgaDevInc/Utils.git"
+  },
+  "keywords": [
+    "utils",
+    "aga"
+  ],
+  "author": "AgaDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgaDevInc/Utils/issues"
+  },
+  "homepage": "https://github.com/AgaDevInc/Utils#readme"
+}
