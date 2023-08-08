@@ -1,8 +1,7 @@
-export { makeRange, getRuntime, exec, List } from 'https://agacdn.onrender.com/AgaDev:utils@1.0.0/util.ts';
-export type { Base10, Base2 } from 'https://agacdn.onrender.com/AgaDev:utils@1.0.0/util.ts';
-export { ValidType } from 'https://agacdn.onrender.com/AgaDev:utils@1.0.0/validation.ts';
-export { InvalidTokenError, skip } from 'https://agacdn.onrender.com/AgaDev:utils@1.0.0/tokenize.fn.ts';
-export type { Token, TokenOptions } from 'https://agacdn.onrender.com/AgaDev:utils@1.0.0/tokenize.fn.ts';
+export { makeRange, getRuntime, exec, List } from './util.ts';
+export type { Base10, Base2 } from './util.ts';
+export { ValidType } from './validation.ts';
+export type { Token, TokenOptions } from './tokenize.fn.ts';
 
-import tokenize from 'https://agacdn.onrender.com/AgaDev:utils@1.0.0/tokenize.fn.ts';
-export {tokenize}
+export { InvalidTokenError, skip, default as tokenize } from './tokenize.fn.ts';
+export { DenoSymbol, NodeSymbol, default as Inspectable } from './Inspectable.class.ts';
